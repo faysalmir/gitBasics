@@ -16,3 +16,49 @@ git add file1.txt
 git commit -m "my frist file"
 git status
 git log
+-----
+------
+
+Here's the complete step-by-step to push your local repo to GitHub.
+
+Step 1: Create a repository on GitHub
+Go to https://github.com and log in.
+
+Click the + icon (top right) → New repository.
+
+Fill in:
+
+Repository name: project1
+GitHub will show you a page with commands. Copy the HTTPS URL, it looks like:
+https://github.com/faysalmir/project1.git
+
+Step 2: Set your branch to main (recommended)
+
+>cd /d "C:\Users\ZA Technologies\Downloads\project1"
+>git branch -M main
+
+Step 3: Connect your local repo to GitHub
+
+>git remote add origin https://github.com/faysalmir/project1.git
+
+Verify it
+
+>git remote -v
+
+Step 4: Push
+
+>git push -u origin main
+-u sets origin main as the default, so next time you only need git push.
+
+-A browser window may pop up asking you to sign in to GitHub. Sign in and authorize.
+
+Step 5: Verify
+Refresh your GitHub repo page — you should see file1.txt and any other files there.
+
+After the first push, future pushes are simple
+
+git add .
+git commit -m "your message"
+git push
+
+-----
