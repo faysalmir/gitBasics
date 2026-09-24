@@ -1,0 +1,18 @@
+cd /d "C:\Users\ZA Technologies\Downloads\project1"
+echo Hello Git > file2.txt
+git status
+git add file2.txt
+git commit -m "Add file2.txt"
+git log --oneline
+git status
+
+-----
+git config --global user.name="mir"
+git config --gloabal user.email="mir@cuiatk.edu.pk"
+git init project1
+cd project1
+echo hello git>file1.txt
+git add file1.txt
+git commit -m "my frist file"
+git status
+git log
