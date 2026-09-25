@@ -1,3 +1,11 @@
+The Setup (One-Time Only)
+Before you start, tell Git who you are. Open your terminal (or Command Prompt/PowerShell) and run these two commands:
+
+git config --global user.name "Mir"
+git config --global user.email "mir@cuiatk.edu.pk"
+
+
+--------
 cd /d "C:\Users\ZA Technologies\Downloads\project1"
 echo Hello Git > file2.txt
 git status
